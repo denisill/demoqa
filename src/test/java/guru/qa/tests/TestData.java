@@ -16,4 +16,8 @@ public class TestData {
     public static String file = "file1.png";
     public static String state = "Rajasthan";
     public static String city = "Jaiselmer";
+
+    public static String txtFilesUrl = "https://filesamples.com/formats/txt";
+    public static String pdfFilesUrl = "https://www.parsec.ru/materials/type/document/";
+    public static String xlsFilesUrl = "https://ckmt.ru/price-download.html";
 }

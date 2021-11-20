@@ -35,18 +35,18 @@ public class RegistrationsPage {
         return this;
     }
 
-    public RegistrationsPage typeFirstName(String value) {
-        firstNameInput.setValue(value);
+    public RegistrationsPage typeFirstName(String firstName) {
+        firstNameInput.setValue(firstName);
         return this;
     }
 
-    public RegistrationsPage typeLastName(String value) {
-        lastNameInput.setValue(value);
+    public RegistrationsPage typeLastName(String lastName) {
+        lastNameInput.setValue(lastName);
         return this;
     }
 
-    public RegistrationsPage typeEmailAddress(String value) {
-        emailAddressInput.setValue(value);
+    public RegistrationsPage typeEmailAddress(String email) {
+        emailAddressInput.setValue(email);
         return this;
     }
 
@@ -55,13 +55,13 @@ public class RegistrationsPage {
         return this;
     }
 
-    public RegistrationsPage typeMobileNumber(String value) {
-        mobileNumberInput.setValue(value);
+    public RegistrationsPage typeMobileNumber(String mobileNumber) {
+        mobileNumberInput.setValue(mobileNumber);
         return this;
     }
 
-    public RegistrationsPage typeSubject(String value) {
-        subjectsInput.setValue(value).pressEnter();
+    public RegistrationsPage typeSubject(String subject) {
+        subjectsInput.setValue(subject).pressEnter();
         return this;
     }
 
@@ -75,8 +75,8 @@ public class RegistrationsPage {
         return this;
     }
 
-    public RegistrationsPage typeAddress(String value) {
-        addressInput.setValue(value);
+    public RegistrationsPage typeAddress(String address) {
+        addressInput.setValue(address);
         return this;
     }
 
