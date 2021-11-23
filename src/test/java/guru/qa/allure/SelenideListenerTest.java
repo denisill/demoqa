@@ -15,8 +15,8 @@ public class SelenideListenerTest extends TestBase {
 
     @Test
     public void testGithub() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
 
+        SelenideLogger.addListener("allure", new AllureSelenide());
         open("https://github.com");
         $(".header-search-input").click();
         $(".header-search-input").sendKeys("denisill/demoqa");
