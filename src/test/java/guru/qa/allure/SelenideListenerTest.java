@@ -22,7 +22,6 @@ public class SelenideListenerTest extends TestBase {
         $(".header-search-input").click();
         $(".header-search-input").sendKeys("denisill/demoqa");
         $(".header-search-input").submit();
-
         $(linkText("denisill/demoqa")).click();
         $(partialLinkText("Issues")).click();
         $(withText("#1")).should(Condition.visible);
