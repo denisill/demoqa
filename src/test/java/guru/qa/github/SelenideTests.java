@@ -24,7 +24,7 @@ public class SelenideTests {
         $$(".repo-list li").get(0).$("a").click();
         $("h1").shouldHave(text("selenide / selenide"));
         //Перейдите в раздел Wiki проекта
-        $("#wiki-tab").click();;
+        $("#wiki-tab").click();
         //Убедитесь, что в списке страниц (Pages) есть страница SoftAssertions и открыть
         $("#wiki-body").$(byText("Soft assertions")).click();
         //Проверить что внутри есть пример кода для JUnit5
