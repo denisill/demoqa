@@ -22,7 +22,7 @@ public class RegistrationsPage {
             emailAddressInput = $("#userEmail"),
             mobileNumberInput = $("#userNumber"),
             subjectsInput = $("#subjectsInput"),
-            uploadFile =  $("#uploadPicture"),
+            uploadFile = $("#uploadPicture"),
             addressInput = $("#currentAddress"),
             submit = $("#submit"),
             tableResults = $(".table-responsive");
