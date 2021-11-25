@@ -111,6 +111,8 @@ public class Snippets {
 
     }
 
+    //тест удалить
+
     void conditions_examples() {
         $("").shouldBe(visible);
         $("").shouldBe(hidden);
